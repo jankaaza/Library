@@ -1,8 +1,28 @@
 package com.company;
 
+import java.util.Date;
+
 public class Books {
     private String autor;
     private String book_name;
+    private int CreateDate;
+    private int pageSize;
+
+    public int getCreateDate() {
+        return CreateDate;
+    }
+
+    public void setCreateDate(int createDate) {
+        CreateDate = createDate;
+    }
+
+    public int getPageSize() {
+        return pageSize;
+    }
+
+    public void setPageSize(int pageSize) {
+        this.pageSize = pageSize;
+    }
 
     public String getAutor() {
         return autor;

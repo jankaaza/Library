@@ -9,6 +9,8 @@ import com.company.interfaces.NumberHelper;
 import com.company.interfaces.StudentsHelper;
 import com.company.interfaces.Who;
 
+import java.awt.print.Book;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -32,9 +34,12 @@ public class Main {
       //  m.getWho("student");
         //  u.getName("administrator");
        // BooksHelper book=new BooksHelperImpl();
-        NumberHelper numberHelper=new NumberHelperImpl();
-        numberHelper.clickNumber();
+       // NumberHelper numberHelper=new NumberHelperImpl();
+       // numberHelper.clickNumber();
 
       //  System.out.println(book.getBooks("g","k"));
+        Who who=new WhoImpl();
+        who.getWho("administrator");
+
     }
 }

@@ -26,7 +26,7 @@ public class BooksHelperImpl implements BooksHelper {
         books2.setBook_name("Toolor kulaganda");
         books2.setAutor("Chyngyz Aytmatov");
         Books books3 = new Books();
-        books3.setBook_name("Romeo Juliet");
+        books3.setBook_name("RomeoJuliet");
         books3.setAutor("William Shakespeare");
         Books books4 = new Books();
         books4.setBook_name("Evgenii Onegin");
